@@ -25,6 +25,7 @@ h1 {
   font-size: 1vmin;
   position: relative;
   top: 0vmin;
+  z-index: 1;
 }
 
 .envelope {
