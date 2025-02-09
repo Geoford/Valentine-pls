@@ -6,11 +6,8 @@ import HeartEffect from "./Heart/combined.jsx";
 function App() {
   return (
     <>
-      <HeartEffect>
-        <Container/>
-        <Container/>
-        <Container/>
-      </HeartEffect>
+      <HeartEffect/>
+      <Container/>
     </>
   );
 }
