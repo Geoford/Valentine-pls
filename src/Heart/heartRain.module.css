@@ -13,12 +13,12 @@ body {
     height: auto;
     /* font-size: 40px; */
     transform: translateY(0);
-    animation: fall 3s linear forwards;
+    animation: fall 0.5s linear forwards;
   }
   
   @keyframes fall {
     to {
-      transform: translateY(101vh);
+      transform: translateY(100vh);
     }
   }
   

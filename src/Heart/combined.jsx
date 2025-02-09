@@ -55,7 +55,7 @@ const HeartEffect = () => {
 
     window.addEventListener("mousemove", mouseMoveHandler);
     return () => window.removeEventListener("mousemove", mouseMoveHandler);
-  }, [cursorHeartRate]);
+  }, );
 
   const createHeartRain = () => {
     const heart = document.createElement("div");
