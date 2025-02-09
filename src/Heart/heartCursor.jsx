@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 const HeartCursor = () => {
   const colours = ["#d3d3ff", "#575799", "#9d9dcc", "#f6f", "#f39", "#f9c"];
-  const [hearts, setHearts] = useState([]);
 
   useEffect(() => {
     const createHeart = (e) => {
