@@ -8,7 +8,7 @@ function ValentineCard() {
         <div className={styles.container} onMouseEnter={() => setIsOpen(true)} onMouseLeave={() => setIsOpen(false)}>
             <div className={styles.envelope}></div>
                 <div className={`${styles.card} ${isOpen ? styles.slide : styles["slide-rev"]}`}>
-                    <h1 className={styles.message}>Do you know!<br />Are you a front end? Because without you, my world has no style. <br />Let &apos;s build something beautiful together.</h1>
+                    <h1 className={styles.message}>Pacommision pls<br/> Ilalagay ko lang rito haha<br/>bapi hirtdey po</h1>
                     <div className={styles.heart}></div>
                 </div>
             <div className={styles.cover}></div>

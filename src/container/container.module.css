@@ -6,7 +6,7 @@
 h1 {
   font-family: Solitreo;
   color: #000;
-  font-size: small;
+  font-size: 2.5vmin;
 }
 
 /* body {
@@ -50,7 +50,7 @@ h1 {
 
 .message {
   position: absolute;
-  top: 5vmin;
+  top: 3vmin;
   left: 2vmin;
 }
 
@@ -124,7 +124,6 @@ h1 {
   width: 5vmin;
   height: 4vmin;
   top: 7vmin;
-  left: -1vmin;
 }
 
 .heart:before,
