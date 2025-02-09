@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 const HeartCursor = () => {
-  const colours = [" #f00", "#f06", "#f0f", "#f6f", "#f39", "#f9c"];
+  const colours = ["#d3d3ff", "#575799", "#9d9dcc", "#f6f", "#f39", "#f9c"];
   const [hearts, setHearts] = useState([]);
 
   useEffect(() => {
