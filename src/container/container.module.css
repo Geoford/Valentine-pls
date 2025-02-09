@@ -45,7 +45,7 @@ h1 {
   align-items: center;
   left: 2.5vmin;
   top: 0vmin;
-  animation: slide-rev 0.2s ease-out;
+  animation: slide-rev 1s ease-out;
 }
 
 .message {
@@ -96,16 +96,27 @@ h1 {
   top: 0;
   transform-origin: top;
   animation: open-rev 2s;
+    animation-fill-mode: forwards;
+}
+.lid::before,
+.lid::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  transform-origin: top;
 }
 
+
 .container:hover .lid {
-  animation: open 0.5s;
+  animation: open 1s;
   animation-fill-mode: forwards;
 }
 
 .container:hover .card {
-  animation: slide 0.2s;
-  animation-delay: 0.5s;
+  animation: slide 0.5s;
+  animation-delay: 0.6s;
   animation-fill-mode: forwards;
 }
 
@@ -146,20 +157,11 @@ h1 {
   transform-origin: 100% 100%;
 }
 
-@keyframes open {
-  100% {
-    transform: rotatex(180deg);
-  }
-}
+
 @keyframes slide {
   100% {
     transform: translatey(-15vmin);
     z-index: 2;
-  }
-}
-@keyframes open-rev {
-  from {
-    transform: rotatex(-180deg);
   }
 }
 @keyframes slide-rev {
@@ -167,3 +169,21 @@ h1 {
     transform: translatey(-15vmin);
   }
 }
+@keyframes open {
+    0% {
+      transform: rotateX(0deg);
+    }
+    100% {
+      transform: rotateX(180deg);
+    }
+  }
+  
+  @keyframes open-rev {
+    0% {
+      transform: rotateX(180deg);
+    }
+    100% {
+      transform: rotateX(0deg);
+    }
+  }
+  
