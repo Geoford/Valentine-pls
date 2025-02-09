@@ -45,7 +45,7 @@ h1 {
   align-items: center;
   left: 2.5vmin;
   top: 0vmin;
-  animation: slide-rev 1s ease-out;
+  animation: slide-rev 0.7s ease-out;
 }
 
 .message {
@@ -95,7 +95,7 @@ h1 {
   border-right: 24vmin solid transparent;
   top: 0;
   transform-origin: top;
-  animation: open-rev 2s;
+  animation: open-rev 1s;
     animation-fill-mode: forwards;
 }
 .lid::before,
@@ -121,7 +121,7 @@ h1 {
 }
 
 .shadow {
-  position: relative;
+  position: relative;   
   top: 3vmin;
   border-radius: 50%;
   opacity: 0.7;
