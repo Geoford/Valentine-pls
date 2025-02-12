@@ -90,7 +90,7 @@ const HeartEffect = () => {
     // Remove heart from DOM after animation
     setTimeout(() => {
       heart.remove();
-    }, 7000);
+    }, 5000);
   };
 
   // Component renders by triggering heart rain effect
