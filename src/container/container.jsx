@@ -8,7 +8,9 @@ function ValentineCard() {
         <div className={styles.container} onMouseEnter={() => setIsOpen(true)} onMouseLeave={() => setIsOpen(false)}>
             <div className={styles.envelope}></div>
                 <div className={`${styles.card} ${isOpen ? styles.slide : styles["slide-rev"]}`}>
-                    <h1 className={styles.message}>Love kamusta ka na pls.<br/> Ilalagay ko lang rito haha<br/>bapi hirtdey po</h1>
+                    <h1 className={styles.message1}>Semicolon ka ba?</h1>
+                    <h2 className={styles.message2}>&emsp;Kasi ikaw ang kukumpleto sa code ng buhay ko hehe; </h2>
+                    <h2 className={styles.message3}>Happy valentines day &lt;3</h2>
                     <div className={styles.heart}></div>
                 </div>
             <div className={styles.cover}></div>

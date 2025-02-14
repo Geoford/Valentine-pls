@@ -8,6 +8,12 @@
     color: #000;
     font-size: 2.5vmin;
   }
+  h2 {
+    font-family: Solitreo;
+    color: #000;
+    font-size: 2vmin;
+  }
+  
 
   /* body {
     height: 100vh;
@@ -49,10 +55,21 @@
     animation: slide-rev 0.7s ease-out;
   }
 
-  .message {
+  .message1 {
     position: absolute;
     top: 3vmin;
     left: 2vmin;
+  }
+  .message2 {
+    position: absolute;
+    top: 7vmin;
+    left: 2vmin;
+    right: 2vmin;
+  }
+  .message3 {
+    position: absolute;
+    top: 15vmin;
+    text-align: center;
   }
 
   .cover {
@@ -111,7 +128,6 @@
     transform-origin: top;
   }
 
-
   .container:hover .lid {
     animation: open 1s;
     animation-fill-mode: forwards;
@@ -136,7 +152,7 @@
   .heart {
     position: relative;
     width: 5vmin;
-    height: 4vmin;
+    height: 2vmin;
     top: 7vmin;
   }
 
